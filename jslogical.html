@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            
+            var first =0 ;
+            var bar = 1 ;
+            var baz  = 2 ;
+
+            console.log(first || bar);      // returns 1 , which is true
+            console.log(bar || first);      // returns 1 , which is true
+
+            console.log(first && bar);      //returns 0, which is false
+            console.log(bar && baz);          // returns2, which is true
+            console.log(baz && bar);        //returns 1 ,which is true
+            
+
+            
+        </script>
+    </body>
+</html>
